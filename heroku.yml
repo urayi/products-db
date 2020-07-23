@@ -1,0 +1,7 @@
+setup:
+  
+build:
+  docker:
+    database: Dockerfile
+run:
+  web: python -m SimpleHTTPServer "8000"
